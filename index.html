@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="bloomalone.css">
+</head>
+<body>
+    <div>
+       <img src="logo.png" alt="logo">
+    </div>
+    <div class="design">
+        <h4>STUDENT LOGIN</h4>
+  <form>
+      <label for="number"> Identity Number: </label>
+  <input type="text" name="identity-number"
+  id="number" placeholder="Student/Applicant"><br><br>
+  <label for="psw">password:</label>
+  <input type="password" id="psw" placeholder="password"  pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[&%#@+]).{8,}"title="must contain a letter(uppercase and lowercase),a number, a symbol,and at least 8 characters or more">
+  </form><br>
+  <a href="">Forget Password?</a><br>
+  <button type="submit" >Login</button>
+    </div>
+</body>
+</html>
